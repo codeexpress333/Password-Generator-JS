@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #eebbbb;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    background: rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+}
+
+.container .range h3 {
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container .range span {
+    font-weight: bold;
+}
+
+.container .range input[type="range"] {
+    width: 70%;
+    margin: 10px 0;
+}
+
+.input input[type="text"] {
+    width: 250px;
+    height: 30px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.input button {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.container .btn {
+    padding: 10px 30px;
+}
+
